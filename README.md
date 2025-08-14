@@ -1,4 +1,4 @@
-# cloudwatch7887
+# cloudwatch-configuration
 ## 1. Create IAM Role for EC2
 <pre>
 Go to AWS Management Console → IAM → Roles → Create role.
