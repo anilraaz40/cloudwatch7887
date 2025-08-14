@@ -30,8 +30,11 @@ sudo apt update
 sudo apt install wget -y
 wget https://amazoncloudwatch-agent.s3.amazonaws.com/ubuntu/amd64/latest/amazon-cloudwatch-agent.deb
 sudo dpkg -i amazon-cloudwatch-agent.deb
-
 </pre>
+
+
+
+
 
 ## 4. Create CloudWatch Agent Configuration
 <pre>
@@ -71,3 +74,5 @@ Go to CloudWatch → Metrics and verify your EC2 metrics.
 
 If you configured logs, check CloudWatch → Logs.
 </pre>
+
+<img width="1066" height="444" alt="Screenshot 2025-08-14 at 2 09 36 PM" src="https://github.com/user-attachments/assets/2f1e3ca1-ad5a-4db8-8219-45839a8c7a45" />
